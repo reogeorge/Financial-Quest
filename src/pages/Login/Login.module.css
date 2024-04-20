@@ -1,7 +1,20 @@
+.outercontainer{
+    background-color: rgba(2, 111, 77, 1);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .heroText{
-    font-size: 2.5rem;
+    font-size:3.5rem;
     font-weight: 700;
     margin:3rem;
+    color:rgb(74, 209, 166);
 }
 
 .heroImg{
@@ -17,13 +30,45 @@
 }
 
 .loginText{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin:3rem .5rem;
+    margin:2rem .5rem;
 }
 
 .line{
+    height: 5px;
+    background-color: #8d1212;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:first baseline;
+    margin: .5rem;
+    width: 65%;
+}
+
+.user{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: .5rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loginButton{
+    padding: 10px 40px;
+    margin: 0px 10px;
+}
+
+.input{
     width: 100%;
-    height: 1px;
-    background-color: #000;
+    height: 45px;
+    border-radius: 10px;
 }
