@@ -1,5 +1,5 @@
 import styles from "./Login.module.css";
-import heroImg from "./Assets/heroImage";
+import heroImg from "./Assets/heroImage.jpg";
 function Login() {
   return (
     <div className={styles.container}>
